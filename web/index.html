@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>판교·청라 업무지구 비교분석</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div>
+      <p class="eyebrow">OFFICE DISTRICT DIAGNOSTICS</p>
+      <h1>판교와 청라, 업무지구의 실현 정도를 비교한다</h1>
+      <p class="hero-copy">동일한 경계 기준과 산식으로 토지이용, 고용 집적, 광역 접근성을 진단합니다.</p>
+    </div>
+    <div class="method-note">
+      <strong>분석 기준</strong>
+      <span>SGIS 2023: 인구·가구·사업체·종사자</span>
+      <span>SGIS 집계구 경계: 2025년 2분기</span>
+      <span>PROM 물리 데이터: 2026년 기준</span>
+      <span>지하철 네트워크 컷오프: 2023-12-31</span>
+    </div>
+  </header>
+
+  <nav class="section-nav" aria-label="분석 영역">
+    <button class="nav-button active" data-target="overview">핵심 비교</button>
+    <button class="nav-button" data-target="maps">공간 비교</button>
+    <button class="nav-button" data-target="landuse">토지이용</button>
+    <button class="nav-button" data-target="transport">교통 접근성</button>
+    <button class="nav-button" data-target="economy">인구·산업</button>
+  </nav>
+
+  <main>
+    <section id="overview" class="section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">SUMMARY</p>
+          <h2>핵심 격차</h2>
+        </div>
+        <p>업무공간의 실현 정도와 고용 집적에서 가장 큰 차이가 확인됩니다.</p>
+      </div>
+      <div id="key-metrics" class="metric-grid"></div>
+      <div class="insight-grid">
+        <article class="insight-card accent-blue">
+          <span>개발 실현</span>
+          <strong id="development-insight">불러오는 중</strong>
+          <p>미건축 필지 면적 비율과 평균 용적률을 함께 비교합니다.</p>
+        </article>
+        <article class="insight-card accent-orange">
+          <span>고용 집적</span>
+          <strong id="employment-insight">불러오는 중</strong>
+          <p>종사자 밀도와 직주비로 실제 업무기능의 집적 수준을 확인합니다.</p>
+        </article>
+        <article class="insight-card accent-green">
+          <span>광역 접근성</span>
+          <strong id="access-insight">불러오는 중</strong>
+          <p>중심역에서 30분 이내 도달 가능한 노동시장 규모를 비교합니다.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="maps" class="section section-dark">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">SPATIAL COMPARISON</p>
+          <h2>두 지구의 공간 비교</h2>
+        </div>
+        <div class="map-controls">
+          <label>표시 레이어
+            <select id="layer-select">
+              <option value="zoning">용도지역</option>
+              <option value="buildings">건축물 주용도</option>
+              <option value="parcels">필지·미건축 여부</option>
+              <option value="isochrone">등시간권</option>
+            </select>
+          </label>
+          <label id="time-control" class="hidden">시간권
+            <select id="time-select">
+              <option value="30">30분</option>
+              <option value="60">60분</option>
+            </select>
+          </label>
+        </div>
+      </div>
+      <div class="map-grid">
+        <article class="map-panel">
+          <div class="map-title"><strong>판교테크노밸리</strong><span>판교역 기준</span></div>
+          <div id="map-pangyo" class="map"></div>
+          <div id="map-stat-pangyo" class="map-stat"></div>
+        </article>
+        <article class="map-panel">
+          <div class="map-title"><strong>청라 국제업무중심지구</strong><span>청라국제도시역 기준</span></div>
+          <div id="map-cheongna" class="map"></div>
+          <div id="map-stat-cheongna" class="map-stat"></div>
+        </article>
+      </div>
+      <div id="map-legend" class="legend"></div>
+    </section>
+
+    <section id="landuse" class="section">
+      <div class="section-heading">
+        <div><p class="eyebrow">LAND USE</p><h2>계획과 실제 공간</h2></div>
+        <p>용도지역 계획과 건축물 주용도의 실제 구현 결과를 함께 봅니다.</p>
+      </div>
+      <div class="chart-grid">
+        <article class="chart-card"><h3>용도지역 구성비</h3><div class="chart-wrap"><canvas id="zoning-chart"></canvas></div></article>
+        <article class="chart-card"><h3>건축물 주용도별 연면적</h3><div class="chart-wrap"><canvas id="building-chart"></canvas></div></article>
+        <article class="chart-card wide"><h3>개발 실현 지표</h3><div class="chart-wrap short"><canvas id="development-chart"></canvas></div></article>
+      </div>
+    </section>
+
+    <section id="transport" class="section section-tint">
+      <div class="section-heading">
+        <div><p class="eyebrow">TRANSPORT</p><h2>중심역 접근성</h2></div>
+        <p>중심역 주변 접근권은 2023년 운영 네트워크 기준으로 산출했습니다.</p>
+      </div>
+      <div id="access-cards" class="access-grid"></div>
+      <article class="chart-card"><h3>0~60분 누적 접근성 곡선</h3><div class="chart-wrap large"><canvas id="access-chart"></canvas></div></article>
+    </section>
+
+    <section id="economy" class="section">
+      <div class="section-heading">
+        <div><p class="eyebrow">SOCIO-ECONOMY</p><h2>인구·고용·산업</h2></div>
+        <p>집계구 통계는 경계 교차면적 비율로 배분한 추정값입니다.</p>
+      </div>
+      <div class="chart-grid">
+        <article class="chart-card"><h3>업무지구 내부 규모</h3><div class="chart-wrap"><canvas id="social-chart"></canvas></div></article>
+        <article class="chart-card"><h3>산업 대분류별 종사자</h3><div class="chart-wrap"><canvas id="industry-chart"></canvas></div></article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>판교·청라 업무지구 비교분석 · 정적 시스템 제출본</p>
+    <p>수치는 면적비 배분 추정값이며 PROM 물리자료와 SGIS 통계는 기준 시점이 다릅니다.</p>
+  </footer>
+
+  <div id="loading" class="loading"><div class="spinner"></div><p>분석 데이터를 불러오는 중입니다.</p></div>
+  <div id="error" class="error hidden"></div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

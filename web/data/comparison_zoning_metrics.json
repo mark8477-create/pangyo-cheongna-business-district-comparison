@@ -1,0 +1,65 @@
+[
+  {
+    "region": "pangyo",
+    "uzone_cd": "UQA130",
+    "uzone_nm": "준주거지역",
+    "area_sqm": 654063.8633770617,
+    "share": 0.9698578497469963
+  },
+  {
+    "region": "pangyo",
+    "uzone_cd": "UQA410",
+    "uzone_nm": "보전녹지지역",
+    "area_sqm": 517.6427139951037,
+    "share": 0.000767570076323066
+  },
+  {
+    "region": "pangyo",
+    "uzone_cd": "UQA430",
+    "uzone_nm": "자연녹지지역",
+    "area_sqm": 19809.966378519643,
+    "share": 0.02937458017666896
+  },
+  {
+    "region": "cheongna",
+    "uzone_cd": "UQA111",
+    "uzone_nm": "제1종전용주거지역",
+    "area_sqm": 9757.321624349748,
+    "share": 0.009411102417054343
+  },
+  {
+    "region": "cheongna",
+    "uzone_cd": "UQA121",
+    "uzone_nm": "제1종일반주거지역",
+    "area_sqm": 3771.5377624367648,
+    "share": 0.0036377122245825114
+  },
+  {
+    "region": "cheongna",
+    "uzone_cd": "UQA122",
+    "uzone_nm": "제2종일반주거지역",
+    "area_sqm": 2658.0889555680583,
+    "share": 0.0025637719404539056
+  },
+  {
+    "region": "cheongna",
+    "uzone_cd": "UQA123",
+    "uzone_nm": "제3종일반주거지역",
+    "area_sqm": 62458.16509428345,
+    "share": 0.06024196097182178
+  },
+  {
+    "region": "cheongna",
+    "uzone_cd": "UQA210",
+    "uzone_nm": "중심상업지역",
+    "area_sqm": 830849.2811198444,
+    "share": 0.8013682421046485
+  },
+  {
+    "region": "cheongna",
+    "uzone_cd": "UQA430",
+    "uzone_nm": "자연녹지지역",
+    "area_sqm": 126960.41969741254,
+    "share": 0.12245548099006934
+  }
+]

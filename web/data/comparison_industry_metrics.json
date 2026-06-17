@@ -1,0 +1,446 @@
+[
+  {
+    "region": "pangyo",
+    "metric": "cp_bnu_001",
+    "measure": "businesses",
+    "value": 0.0
+  },
+  {
+    "region": "pangyo",
+    "metric": "cp_bnu_003",
+    "measure": "businesses",
+    "value": 52.93252884993055
+  },
+  {
+    "region": "pangyo",
+    "metric": "cp_bnu_004",
+    "measure": "businesses",
+    "value": 0.0
+  },
+  {
+    "region": "pangyo",
+    "metric": "cp_bnu_005",
+    "measure": "businesses",
+    "value": 0.0
+  },
+  {
+    "region": "pangyo",
+    "metric": "cp_bnu_006",
+    "measure": "businesses",
+    "value": 7.811356321221044
+  },
+  {
+    "region": "pangyo",
+    "metric": "cp_bnu_007",
+    "measure": "businesses",
+    "value": 179.37604522246878
+  },
+  {
+    "region": "pangyo",
+    "metric": "cp_bnu_008",
+    "measure": "businesses",
+    "value": 33.76180985990734
+  },
+  {
+    "region": "pangyo",
+    "metric": "cp_bnu_009",
+    "measure": "businesses",
+    "value": 253.24396400673723
+  },
+  {
+    "region": "pangyo",
+    "metric": "cp_bnu_010",
+    "measure": "businesses",
+    "value": 315.3179019833914
+  },
+  {
+    "region": "pangyo",
+    "metric": "cp_bnu_011",
+    "measure": "businesses",
+    "value": 36.66942430147231
+  },
+  {
+    "region": "pangyo",
+    "metric": "cp_bnu_012",
+    "measure": "businesses",
+    "value": 69.36531210254572
+  },
+  {
+    "region": "pangyo",
+    "metric": "cp_bnu_013",
+    "measure": "businesses",
+    "value": 140.7279236721411
+  },
+  {
+    "region": "pangyo",
+    "metric": "cp_bnu_014",
+    "measure": "businesses",
+    "value": 21.79474579206396
+  },
+  {
+    "region": "pangyo",
+    "metric": "cp_bnu_015",
+    "measure": "businesses",
+    "value": 1.3096591552351142
+  },
+  {
+    "region": "pangyo",
+    "metric": "cp_bnu_016",
+    "measure": "businesses",
+    "value": 8.470069116354404
+  },
+  {
+    "region": "pangyo",
+    "metric": "cp_bnu_017",
+    "measure": "businesses",
+    "value": 25.835273085713794
+  },
+  {
+    "region": "pangyo",
+    "metric": "cp_bnu_018",
+    "measure": "businesses",
+    "value": 18.23426451788071
+  },
+  {
+    "region": "pangyo",
+    "metric": "cp_bnu_019",
+    "measure": "businesses",
+    "value": 23.95391402568911
+  },
+  {
+    "region": "pangyo",
+    "metric": "cp_bem_001",
+    "measure": "workers",
+    "value": 0.0
+  },
+  {
+    "region": "pangyo",
+    "metric": "cp_bem_003",
+    "measure": "workers",
+    "value": 1904.4465637492679
+  },
+  {
+    "region": "pangyo",
+    "metric": "cp_bem_004",
+    "measure": "workers",
+    "value": 7.073009095735436
+  },
+  {
+    "region": "pangyo",
+    "metric": "cp_bem_005",
+    "measure": "workers",
+    "value": 13.096591552351141
+  },
+  {
+    "region": "pangyo",
+    "metric": "cp_bem_006",
+    "measure": "workers",
+    "value": 862.6821312815426
+  },
+  {
+    "region": "pangyo",
+    "metric": "cp_bem_007",
+    "measure": "workers",
+    "value": 3423.31078161446
+  },
+  {
+    "region": "pangyo",
+    "metric": "cp_bem_008",
+    "measure": "workers",
+    "value": 64.36882331569393
+  },
+  {
+    "region": "pangyo",
+    "metric": "cp_bem_009",
+    "measure": "workers",
+    "value": 1144.4840835425537
+  },
+  {
+    "region": "pangyo",
+    "metric": "cp_bem_010",
+    "measure": "workers",
+    "value": 19165.54223558042
+  },
+  {
+    "region": "pangyo",
+    "metric": "cp_bem_011",
+    "measure": "workers",
+    "value": 403.3695157274077
+  },
+  {
+    "region": "pangyo",
+    "metric": "cp_bem_012",
+    "measure": "workers",
+    "value": 833.3830885006408
+  },
+  {
+    "region": "pangyo",
+    "metric": "cp_bem_013",
+    "measure": "workers",
+    "value": 8123.022824552596
+  },
+  {
+    "region": "pangyo",
+    "metric": "cp_bem_014",
+    "measure": "workers",
+    "value": 5942.594477197313
+  },
+  {
+    "region": "pangyo",
+    "metric": "cp_bem_015",
+    "measure": "workers",
+    "value": 93.5767495265575
+  },
+  {
+    "region": "pangyo",
+    "metric": "cp_bem_016",
+    "measure": "workers",
+    "value": 50.70308556356071
+  },
+  {
+    "region": "pangyo",
+    "metric": "cp_bem_017",
+    "measure": "workers",
+    "value": 408.59371803438097
+  },
+  {
+    "region": "pangyo",
+    "metric": "cp_bem_018",
+    "measure": "workers",
+    "value": 73.3220540005095
+  },
+  {
+    "region": "pangyo",
+    "metric": "cp_bem_019",
+    "measure": "workers",
+    "value": 150.8780809235334
+  },
+  {
+    "region": "pangyo",
+    "metric": "secret_or_unprovided_gap",
+    "measure": "businesses",
+    "value": 17.194632105186884
+  },
+  {
+    "region": "pangyo",
+    "metric": "secret_or_unprovided_gap",
+    "measure": "workers",
+    "value": 3.506631304997427
+  },
+  {
+    "region": "cheongna",
+    "metric": "cp_bnu_003",
+    "measure": "businesses",
+    "value": 20.921238559619145
+  },
+  {
+    "region": "cheongna",
+    "metric": "cp_bnu_004",
+    "measure": "businesses",
+    "value": 0.0
+  },
+  {
+    "region": "cheongna",
+    "metric": "cp_bnu_005",
+    "measure": "businesses",
+    "value": 0.0
+  },
+  {
+    "region": "cheongna",
+    "metric": "cp_bnu_006",
+    "measure": "businesses",
+    "value": 43.66326514759854
+  },
+  {
+    "region": "cheongna",
+    "metric": "cp_bnu_007",
+    "measure": "businesses",
+    "value": 185.30896837121983
+  },
+  {
+    "region": "cheongna",
+    "metric": "cp_bnu_008",
+    "measure": "businesses",
+    "value": 13.999999999999998
+  },
+  {
+    "region": "cheongna",
+    "metric": "cp_bnu_009",
+    "measure": "businesses",
+    "value": 91.46647074127038
+  },
+  {
+    "region": "cheongna",
+    "metric": "cp_bnu_010",
+    "measure": "businesses",
+    "value": 30.541153339510362
+  },
+  {
+    "region": "cheongna",
+    "metric": "cp_bnu_011",
+    "measure": "businesses",
+    "value": 0.0
+  },
+  {
+    "region": "cheongna",
+    "metric": "cp_bnu_012",
+    "measure": "businesses",
+    "value": 58.68661232509951
+  },
+  {
+    "region": "cheongna",
+    "metric": "cp_bnu_013",
+    "measure": "businesses",
+    "value": 38.80385433445612
+  },
+  {
+    "region": "cheongna",
+    "metric": "cp_bnu_014",
+    "measure": "businesses",
+    "value": 12.132081397368742
+  },
+  {
+    "region": "cheongna",
+    "metric": "cp_bnu_015",
+    "measure": "businesses",
+    "value": 0.0
+  },
+  {
+    "region": "cheongna",
+    "metric": "cp_bnu_016",
+    "measure": "businesses",
+    "value": 27.931139473050674
+  },
+  {
+    "region": "cheongna",
+    "metric": "cp_bnu_017",
+    "measure": "businesses",
+    "value": 0.00012409075356902523
+  },
+  {
+    "region": "cheongna",
+    "metric": "cp_bnu_018",
+    "measure": "businesses",
+    "value": 17.739577386452627
+  },
+  {
+    "region": "cheongna",
+    "metric": "cp_bnu_019",
+    "measure": "businesses",
+    "value": 37.088688759622045
+  },
+  {
+    "region": "cheongna",
+    "metric": "cp_bem_003",
+    "measure": "workers",
+    "value": 37.284025578514836
+  },
+  {
+    "region": "cheongna",
+    "metric": "cp_bem_004",
+    "measure": "workers",
+    "value": 78.67570943489363
+  },
+  {
+    "region": "cheongna",
+    "metric": "cp_bem_005",
+    "measure": "workers",
+    "value": 0.0
+  },
+  {
+    "region": "cheongna",
+    "metric": "cp_bem_006",
+    "measure": "workers",
+    "value": 384.5866440237893
+  },
+  {
+    "region": "cheongna",
+    "metric": "cp_bem_007",
+    "measure": "workers",
+    "value": 309.0740347155038
+  },
+  {
+    "region": "cheongna",
+    "metric": "cp_bem_008",
+    "measure": "workers",
+    "value": 59.089927212364174
+  },
+  {
+    "region": "cheongna",
+    "metric": "cp_bem_009",
+    "measure": "workers",
+    "value": 265.36206746280584
+  },
+  {
+    "region": "cheongna",
+    "metric": "cp_bem_010",
+    "measure": "workers",
+    "value": 64.64257332222175
+  },
+  {
+    "region": "cheongna",
+    "metric": "cp_bem_011",
+    "measure": "workers",
+    "value": 11.000319090509176
+  },
+  {
+    "region": "cheongna",
+    "metric": "cp_bem_012",
+    "measure": "workers",
+    "value": 135.82235286444117
+  },
+  {
+    "region": "cheongna",
+    "metric": "cp_bem_013",
+    "measure": "workers",
+    "value": 61.51905497203709
+  },
+  {
+    "region": "cheongna",
+    "metric": "cp_bem_014",
+    "measure": "workers",
+    "value": 52.800280488725356
+  },
+  {
+    "region": "cheongna",
+    "metric": "cp_bem_015",
+    "measure": "workers",
+    "value": 200.00692398509105
+  },
+  {
+    "region": "cheongna",
+    "metric": "cp_bem_016",
+    "measure": "workers",
+    "value": 67.37274827141773
+  },
+  {
+    "region": "cheongna",
+    "metric": "cp_bem_017",
+    "measure": "workers",
+    "value": 75.16045437585886
+  },
+  {
+    "region": "cheongna",
+    "metric": "cp_bem_018",
+    "measure": "workers",
+    "value": 56.2388233834935
+  },
+  {
+    "region": "cheongna",
+    "metric": "cp_bem_019",
+    "measure": "workers",
+    "value": 56.91211869742111
+  },
+  {
+    "region": "cheongna",
+    "metric": "secret_or_unprovided_gap",
+    "measure": "businesses",
+    "value": 57.4438310796196
+  },
+  {
+    "region": "cheongna",
+    "metric": "secret_or_unprovided_gap",
+    "measure": "workers",
+    "value": 44.237699783360085
+  }
+]

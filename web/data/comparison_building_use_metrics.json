@@ -1,0 +1,98 @@
+[
+  {
+    "region": "pangyo",
+    "use_category": "industrial",
+    "tot_fl_ar": 952.6,
+    "share": 0.0003514951289568141,
+    "building_count": 85,
+    "total_floor_area_sqm": 2710137.13,
+    "office_floor_area_sqm": 2604986.28,
+    "office_floor_area_ratio": 0.9612009116306228,
+    "average_far_pct": 401.8640130130764,
+    "lum": 0.15120160415609257
+  },
+  {
+    "region": "pangyo",
+    "use_category": "office_research",
+    "tot_fl_ar": 2604986.28,
+    "share": 0.9612009116306228,
+    "building_count": 85,
+    "total_floor_area_sqm": 2710137.13,
+    "office_floor_area_sqm": 2604986.28,
+    "office_floor_area_ratio": 0.9612009116306228,
+    "average_far_pct": 401.8640130130764,
+    "lum": 0.15120160415609257
+  },
+  {
+    "region": "pangyo",
+    "use_category": "other",
+    "tot_fl_ar": 104198.25,
+    "share": 0.038447593240420276,
+    "building_count": 85,
+    "total_floor_area_sqm": 2710137.13,
+    "office_floor_area_sqm": 2604986.28,
+    "office_floor_area_ratio": 0.9612009116306228,
+    "average_far_pct": 401.8640130130764,
+    "lum": 0.15120160415609257
+  },
+  {
+    "region": "cheongna",
+    "use_category": "culture_assembly",
+    "tot_fl_ar": 10439.88,
+    "share": 0.03308024021322701,
+    "building_count": 14,
+    "total_floor_area_sqm": 315592.6297,
+    "office_floor_area_sqm": 206067.7077,
+    "office_floor_area_ratio": 0.6529547533980322,
+    "average_far_pct": 30.433786032117098,
+    "lum": 0.5873043774664642
+  },
+  {
+    "region": "cheongna",
+    "use_category": "industrial",
+    "tot_fl_ar": 126.75,
+    "share": 0.0004016253488571251,
+    "building_count": 14,
+    "total_floor_area_sqm": 315592.6297,
+    "office_floor_area_sqm": 206067.7077,
+    "office_floor_area_ratio": 0.6529547533980322,
+    "average_far_pct": 30.433786032117098,
+    "lum": 0.5873043774664642
+  },
+  {
+    "region": "cheongna",
+    "use_category": "office_research",
+    "tot_fl_ar": 206067.7077,
+    "share": 0.6529547533980322,
+    "building_count": 14,
+    "total_floor_area_sqm": 315592.6297,
+    "office_floor_area_sqm": 206067.7077,
+    "office_floor_area_ratio": 0.6529547533980322,
+    "average_far_pct": 30.433786032117098,
+    "lum": 0.5873043774664642
+  },
+  {
+    "region": "cheongna",
+    "use_category": "other",
+    "tot_fl_ar": 28188.792,
+    "share": 0.08932018477996795,
+    "building_count": 14,
+    "total_floor_area_sqm": 315592.6297,
+    "office_floor_area_sqm": 206067.7077,
+    "office_floor_area_ratio": 0.6529547533980322,
+    "average_far_pct": 30.433786032117098,
+    "lum": 0.5873043774664642
+  },
+  {
+    "region": "cheongna",
+    "use_category": "retail_neighborhood",
+    "tot_fl_ar": 70769.5,
+    "share": 0.2242431962599157,
+    "building_count": 14,
+    "total_floor_area_sqm": 315592.6297,
+    "office_floor_area_sqm": 206067.7077,
+    "office_floor_area_ratio": 0.6529547533980322,
+    "average_far_pct": 30.433786032117098,
+    "lum": 0.5873043774664642
+  }
+]

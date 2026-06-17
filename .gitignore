@@ -1,0 +1,21 @@
+# Raw and generated geospatial data
+data_raw/*
+!data_raw/README.md
+!data_raw/source_inventory.csv
+data_processed/*
+public/data/*
+
+# Keep generated-output directories available
+!data_processed/.gitkeep
+!public/data/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# GIS sidecars and temporary files
+*.qgz~
+*.aux.xml
+.DS_Store
+Thumbs.db
